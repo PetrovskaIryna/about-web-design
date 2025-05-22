@@ -1,13 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial;
-    background-color: rgba(255, 208, 0, 0.836 );
-    height: 100hv;
+    font-size: 18px;
+    background-color: #3d3703;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
     width: 100%;
+    overflow-x: hidden;
 }
 
 section {
@@ -17,28 +24,29 @@ section {
     align-items: center;
     gap: 50px;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .container {
-    background-color: rgb(248, 166, 166);
+    background-color: #d4c305 ;
     padding: 5px;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     overflow-y: scroll;
-    border: 9px solid #5a035a65;
+    border: 9px solid #5c570d65;
     border-radius: 20px;
     box-shadow: 0px 0px 50px #33002240;
     transition: all 2s ease;
 }
 
 .container:hover {
-    box-shadow: 0px 0px 50px #4c028a;
+    box-shadow: 0px 0px 50px #a7a4a8;
 }
 
 h2 {
     text-align: center;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 .image_container {
@@ -63,7 +71,7 @@ h2 {
     align-items: center;
     gap: 10px;
     width: 60%;
-    background-color: antiquewhite;
+    background-color: #d4c305;
     border-radius: 10px;
 }
 
@@ -96,7 +104,7 @@ h2 {
     gap: 15px;
     width: 100%;
     height: 100hv;
-    background-color: rgb(206, 156, 195);
+    background-color: #88824a ;
 }
 
 .tag-title {
@@ -106,8 +114,43 @@ h2 {
     width: 100px;
     line-height: 100px;
     height: 100px;
-    border: #330022 solid 2px;
+    border: #503e04 solid 2px;
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
+}
+
+/* Cекція про вебдизайн - вітальна з відео */
+.welcome { 
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: #f8eeb5;
+    text-align: center;
+    font-size: 120px;
+}
+
+.site-footer {
+    text-align: center;
+    font-size: 15px;
+    color:lavender;
 }

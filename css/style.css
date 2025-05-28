@@ -16,8 +16,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    width: 100%;
+    gap: 50px;
     overflow-x: hidden;
 }
 
@@ -28,7 +27,7 @@ section {
     align-items: center;
     gap: 50px;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
 }
 
 .container {
@@ -68,6 +67,8 @@ h2 {
     font-weight: 900;
 
 }
+
+/*Секція з тегами*/
 
 .tag-container {
     display: flex;
@@ -153,11 +154,13 @@ h2 {
     font-size: 120px;
 }
 
+/*Секція футер - з навігацією, контактами та короткою інформацією про сайт*/
+
 footer {
     width: 100%;
-    background: #353009;
+    background: #3d3703;
     color: rgb(192, 216, 236);
-    margin-top: 40px;
+    margin-top: 15px;
     box-shadow: 0 -4px 24px #243f0d40;
     font-size: 18px;
     letter-spacing: 0.2px;
@@ -167,7 +170,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 60px;
+    gap: 50px;
     padding: 40px 0 10px 0;
     width: 90%;
     margin: 0 auto;
@@ -221,5 +224,5 @@ footer {
     padding: 12px 0 8px 0;
     font-size: 16px;
     color: #f8eeb5;
-    background: #312c02;
+    background: #6e6723;
 }

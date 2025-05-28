@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {scroll-behavior: smooth;
+
+}
+
 body {
     font-family: Arial;
     font-size: 18px;
@@ -149,8 +153,73 @@ h2 {
     font-size: 120px;
 }
 
-.site-footer {
+footer {
+    width: 100%;
+    background: #353009;
+    color: rgb(192, 216, 236);
+    margin-top: 40px;
+    box-shadow: 0 -4px 24px #243f0d40;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+.footer-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px 0 10px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-block {
+    min-width: 220px;
+    max-width: 320px;
+}
+
+.footer-block h3 {
+    color: rgb(243, 235, 166);
+    margin-bottom: 12px;
+    font-size: 22px;
+    letter-spacing: 1px;
+
+}
+
+.footer-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-block ul li {
+    margin-bottom: 8px;
+    color: rgb(240, 230, 173);
+}
+
+.footer-block a {
+    color: rgb(247, 203, 108);
+    text-decoration: underline dotted;
+    transition: color 0.2s;
+}
+
+.footer-block a:hover {
+    color: #d4c305;
+}
+
+.footer-block p {
+    color: rgb(226, 209, 111);
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-bottom {
     text-align: center;
-    font-size: 15px;
-    color:lavender;
+    border-top: 1px solid #88824a;
+    margin-top: 20px;
+    padding: 12px 0 8px 0;
+    font-size: 16px;
+    color: #f8eeb5;
+    background: #312c02;
 }

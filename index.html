@@ -4,14 +4,23 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <section class="welcome">
+        <nav class="main-nav">
+            <div class="nav-logo">Вебдизайн</div>
+            <ul class="nav-links">
+                <li><a href="#welcome">Вітальне відео</a></li>
+                <li><a href="#about">Технології</a></li>
+                <li><a href="#tags">Теги</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+        <section id="welcome">
             <video autoplay muted loop playsinline class="background-video">
                 <source src="video/178559-860270619_small.mp4" type="video/mp4" />
                 Your browser does not support the video tag
             </video>
             <h1 class="content">Коротко про вебдизайн</h1>
         </section>
-        <section сlass="about">
+        <section id="about">
         <div class="container">
             <div class="image_container">
                 <img src="img/free-icon-html-186320.png" alt="HTML">
@@ -66,7 +75,8 @@ CSS (каскадне або блокове верстання) прийшло �
             <a href="https://uk.wikipedia.org/wiki/JavaScript" class="more_info" target="_blank">Детальніше</a>
         </div>
         </section>
-        <section class="tags">
+        <section id="tags">
+            <section class="tags">
             <h2>Теги</h2>
             <div class="tag-container">
                 <div class="tag-title">html</div>
@@ -92,6 +102,7 @@ CSS (каскадне або блокове верстання) прийшло �
                 <div class="tag-title">div</div>
                 <div class="tag-description">групує блоки інформації на HTML-сторінці і форматує її за допомогою CSS</div>
             </div>
+            </section>
         </section>
         </body>
         <footer id="contacts">
@@ -118,5 +129,5 @@ CSS (каскадне або блокове верстання) прийшло �
             <div class="footer-bottom">
                 <b>Петровська Ірина</b> | Сайт "Коротко про вебдизайн"
             </div>
-            </footer>
+        </footer>
 </html>
